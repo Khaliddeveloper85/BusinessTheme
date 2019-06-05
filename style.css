@@ -1,0 +1,163 @@
+/* General Section */
+
+.greenBtn {
+    background-color:#18d427;
+    color:white;
+    border:none;
+    border-radius:25px;
+    padding:10px;
+    width:150px;
+    height:55px;
+    transition:0.5s;
+    font-size: 20px;
+}
+.greenBtn:hover {
+    background-color: #12a11e;
+}
+
+.purpleBtn {
+    background-color:white;
+    color:#9400D3;
+    border:1px solid #9400D3;
+    border-radius:25px;
+    padding:12px;
+    width:160px;
+    height:55px;
+    text-align:center;
+    transition: 0.5s;
+    font-size:20px;
+    cursor:pointer;
+}
+.purpleBtn:hover {
+    background-color:#6b0099;
+    color:white;
+}
+.blueBtn {
+    background-color:white;
+    border:1px solid #1E90FF;
+    color:#1E90FF;
+    border-radius:25px;
+    padding:12px;
+    width:185px;
+    height:55px;
+    text-align:center;
+    transition:0.5s;
+    font-size: 20px;
+    cursor:pointer;
+}
+.blueBtn:hover {
+    background-color:#1E90FF;
+    color:white;
+}
+
+/* Navbar Section */
+
+
+nav {
+    background-color:none;
+}
+.navbar .navbar-brand {
+    font-family:'Sofia';
+    font-size:30px;
+    transition:0.5s;
+    cursor:pointer;
+   
+}
+.navbar .navbar-brand:hover {
+    color:#1E90FF;
+}
+.navbar .nav-link {
+    margin-left:30px;
+}
+
+
+/* Header Section */
+
+#HeaderSection .col-md-12 {
+    margin-top:200px;
+}
+#HeaderSection {
+    background: url('../business/Images/bgimage.jpg') no-repeat center center fixed;
+    background-size:cover;
+    height:100vh;
+}
+#HeaderSection h1 {
+    color:white;
+    font-family: 'Pacifico', cursive;
+
+
+}
+#HeaderSection,#Projects,#Service .container p {
+    font-size:20px;
+}
+#HeaderSection .container button {
+    width:200px;
+    height:50px;
+    font-size:18px;
+}
+
+/* About us Section  */
+
+#AboutUs {
+    padding:10px;
+}
+#AboutUs h2 {
+    color:#333333;
+
+}
+#AboutUs p {
+    font-size:18px;
+}
+#AboutUs img {
+    width: 200px;
+    height:80px;
+    cursor:pointer;
+}
+
+/* Projects */
+
+#Projects {
+    background-color:#f1f1f1;
+}
+#Projects .col-md-12 {
+    margin-top:100px;
+}
+
+/* Service */
+
+#Service,#Contact h1 {
+    color:#333333;
+    font-size:2.5rem;
+}
+
+/* Blog Section */
+
+#BlogSection {
+    background-color:#e7eff1;
+}
+#BlogSection .card {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+#BlogSection,#Contact img {
+    cursor:pointer;
+}
+
+/* Footer */
+
+#Footer {
+    background-color:#262729;
+}
+#Footer .Logo {
+    color:white;
+    font-family:'Sofia';
+    font-size:30px;
+    transition:0.5s;
+    cursor:pointer;
+    margin-top:10px;
+}
+#Footer .Logo:hover {
+    color:#1E90FF;
+}
+#Footer h5,p {
+    color:white;
+}
